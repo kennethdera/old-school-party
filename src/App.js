@@ -3,25 +3,25 @@ import {PaystackConsumer} from "react-paystack";
 
 const contactInfo = {
   phoneNumber: "+2348154389019",
-  email: "kenneth.cringe@gmail.com",
+  email: "[REDACTED]",
 };
 
 const socialLinks = [
   {
     name: "facebook",
-    link: "https://www.facebook.com/rougekiing",
+    link: "https://ng.linkedin.com/in/kenneth-nkwocha",
   },
   {
     name: "twitter",
-    link: "https://www.twitter.com/kennethdera",
+    link: "https://ng.linkedin.com/in/kenneth-nkwocha",
   },
   {
     name: "instagram",
-    link: "https://www.instagram.com/kenneth",
+    link: "https://ng.linkedin.com/in/kenneth-nkwocha",
   },
   {
     name: "youtube",
-    link: "https://www.youtube.com/ken",
+    link: "https://ng.linkedin.com/in/kenneth-nkwocha",
   },
 ];
 
@@ -31,11 +31,7 @@ const features = [
     name: "Chella",
     image: "images/speaker-1.jpg",
   },
-  {
-    id: "002",
-    name: "Christ Legros",
-    image: "images/speaker-2.jpg",
-  },
+ 
 ];
 
 const sponsors = [
@@ -103,7 +99,7 @@ function App() {
         
         <TicketPricing />
         <Features />
-        <Sponsors />
+        {/*<Sponsors />*/}
       </main>
       <Footer />
     </>
